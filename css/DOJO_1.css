@@ -1,0 +1,109 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+header {
+  height: 90px;
+  background-color: #26d0c9;
+  color: white;
+}
+
+.header-name {
+  font-size: 36px;
+  float: left;
+  padding: 18px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+span {
+  color: red;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.section-title {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+  margin-bottom: 50px;
+}
+
+.contents {
+  height:500px;
+  margin: 100px 0px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form p {
+  margin-bottom: 10px;
+}
+
+.contact-form input, textarea {
+  width: 400px;
+  border: 1px solid #dee7ec;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-submit {
+  font-size: 18px;
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+footer {
+  height: 180px;
+  color: #fff;
+  background-color: #2f5167;
+  padding: 40px;
+}
+
+.footer-name {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  margin-bottom: 20px;
+}

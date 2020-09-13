@@ -1,0 +1,55 @@
+/*タブレット1000px*/
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .copy-container h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/*スマホ670px*/
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .copy-container h1 {
+    font-size: 24px;
+  }
+  .copy-container p {
+    font-size: 14px;
+  }
+  .btn-container {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+}

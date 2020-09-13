@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.clear {
+  clear: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  height:65px;
+  width:100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index: 10;
+}
+
+.header-logo {
+  float-left;
+  width: 124px;
+  margin-top: 20px;
+}
+
+.menu-icon {
+  color:white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
+.header-right {
+  float: right;
+  line-height: 65px;
+}
+
+.header-right a {
+  float: left;
+  color: white;
+  padding: 0 25px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: silver;
+}
+
+.top-wrapper {
+  padding: 180px 0 130px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.copy-container h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  opacity: 0.7;
+  color: white;
+}
+
+.copy-container p {
+  opacity: 0.7;
+  color: white;
+}
+
+.btn-container {
+  padding-top: 15px;
+}
+
+.btn-container p {
+  opacity: 0.7;
+  color: white;
+}
+
+.btn {
+  padding: 8px 24px;
+  border-radius: 5px;
+  opacity: 0.8;
+  color: white;
+  display: inline-block;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.lesson-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.heading {
+  padding: 80px 0 50px 0;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon P {
+  position: absolute;
+  width: 100%;
+  top: 38%;
+  color: white;
+}
+
+.text-comment {
+  width: 80%;
+  color: #b3aeb5;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.message-wrapper {
+  text-align: center;
+  padding-bottom:80px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  box-shadow: 0 7px #1a7940;
+  cursor: pointer;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  padding: 30px 0 20px 0;
+  border-top: 1px solid #eee;
+}
+
+.footer-logo {
+  width: 124px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
